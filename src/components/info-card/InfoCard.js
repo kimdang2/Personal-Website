@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { SocialIcon } from 'react-social-icons';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
@@ -9,7 +10,6 @@ import Avatar from '@material-ui/core/Avatar';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import WorkIcon from '@material-ui/icons/Work';
-import { SocialIcon } from 'react-social-icons';
 import SchoolIcon from '@material-ui/icons/School';
 import profile from '../../data/profile';
 import styles from './InfoCard.module.css';
@@ -60,7 +60,7 @@ class InfoCard extends Component {
                     </Grid>
                     <Divider className={styles.divider} variant="middle" />
                     <Grid item xs={12} className={styles.socialMedias}>
-                    {socialMediaList.map(s => (<SocialIcon className={styles.socialMediasIcon} key={s} url={s} bgColor="#fff"/>))}
+                    {/* {socialMediaList.map(s => (<SocialIcon className={styles.socialMediasIcon} key={s} url={s} bgColor="#fff"/>))} */}
                     </Grid>
                 </Grid>
             </div>
