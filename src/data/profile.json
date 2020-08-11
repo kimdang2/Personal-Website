@@ -1,248 +1,199 @@
 {
-    "Name": "Demo User",
-    "Position": "Software Developer",
-    "Description": "Welcome to my website. My name is Demo User,I ❤️ Programming.",
-    "Address": "Vancouver, Canada",
-    "Company": "Future Technologies",
-    "School": "University of Demo",
+    "Name": "Kim Dang",
+    "Position": "Software Engineer",
+    "Description": "I'm passionate about building programs around human-centered design. I am an aspiring weightlifting competitor and Yelp Eliter",
+    "Address": "San Francisco, CA",
+    "School": "University of California, Davis",
+    "Email": "kimdang229@gmail.com",
     "SocialMedias": [
-      "https://github.com/waynezhang1995",
-      "https://www.linkedin.com/in/wayne-zhang-ab5534129/",
-      "https://www.facebook.com/wayne.zhang.3"
+      "https://github.com/kimdang2",
+      "https://www.linkedin.com/in/kimdang229/"
     ],
     "experiences": [
       {
-        "companyName": "Future Technologies",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-        "url": "https://www.google.com/",
+        "companyName": "Delta Sigma Pi - Nu Rho",
+
         "roles": [
           {
-            "title": "Software developer",
-            "description": "Developed web-based Software.",
-            "startDate": "2018-01-08",
-            "currentJob": true,
-            "location": "Vancouver BC. Canada"
+            "title": "Chief of Technology",
+            "description": "Led a team of 3 in designing and launching the organization’s website with CSS and HTML. Structured and incorporated search engine optimization within the website, increasing site traffic by 300% within 2 weeks and search ranking by 200% during recruitment drive. Hosted resume building and introductory HTML/CSS workshops for the organization which resulted in 20+ students attendance.",
+            "startDate": "2018-12-01",
+            "endDate": "2019-12-01",
+            "location": "Davis, CA"
           }
         ]
       },
       {
-        "companyName": "Demo1 Technologies",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-        "url": "https://www.google.com/",
+        "companyName": "LaunchPAD",
         "roles": [
           {
-            "title": "Full Stack Developer",
-            "description": "Built and updated various Chrome Extensions.",
-            "startDate": "2017-01-01",
-            "endDate": "2017-05-01",
-            "location": "New York, USA"
-          }
-        ]
-      },
-      {
-        "companyName": "Demo2 Technologies",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-        "url": "https://www.google.com/",
-        "roles": [
-          {
-            "title": "UI Designer",
-            "description": "Design user-fridendly web page",
-            "startDate": "2016-05-01",
-            "endDate": "2016-09-01",
-            "location": "Beijing, China"
+            "title": "Communications & Project Management Intern",
+            "description": "Proposed a 6 week strategic plan for real estate portfolio achieving the top presentation for portfolio executives. Collaborated with upper management to make over 85,000 contact attempts and confirmed over 8,000 votes during the 2018 Primary Election for Yes on J measure, resulting in the measure being passed",
+            "startDate": "2018-03-01",
+            "endDate": "2018-06-01",
+            "location": "Davis, CA"
           }
         ]
       }
     ],
     "Skills": [
       {
-        "Area": "Programming Language",
+        "Area": "Front-end",
         "SkillSet": [
           {
-            "Name": "Java",
-            "Hot": true
+            "Name": "React.js"
           },
           {
-            "Name": "C#",
-            "Hot": false
+            "Name": "Jest"
           },
           {
-            "Name": "Python",
-            "Hot": false
+            "Name": "Enzyme"
+          },
+          {
+            "Name": "Babel"
+          },
+          {
+            "Name": "Webpack"
+          },
+          {
+            "Name": "HTML"
+          },
+          {
+            "Name": "CSS"
+          },
+          {
+            "Name": "Redux"
+          },
+          {
+            "Name": "jQuery"
           }
         ]
       },
       {
-        "Area": "Web-Based Application Development",
+        "Area": "Back-end",
         "SkillSet": [
           {
-            "Name": "JavaScript (ES5, ES6)",
-            "Hot": true
+            "Name": "Node.js"
           },
           {
-            "Name": "TypeScript",
-            "Hot": false
+            "Name": "PostgreSQL"
           },
           {
-            "Name": "HTML5",
-            "Hot": true
+            "Name": "MySQL"
           },
           {
-            "Name": "CSS (SCSS/SASS)",
-            "Hot": true
+            "Name": "MongoDB"
           },
           {
-            "Name": "React",
-            "Hot": true
+            "Name": "Mongoose"
           },
           {
-            "Name": "Redux",
-            "Hot": false
-          },
-          {
-            "Name": "JQuery",
-            "Hot": false
-          },
-          {
-            "Name": "NPM",
-            "Hot": false
-          },
-          {
-            "Name": "Grunt",
-            "Hot": false
-          },
-          {
-            "Name": "Jamine JavaScript Unit Test",
-            "Hot": true
-          },
-          {
-            "Name": "WebPack",
-            "Hot": false
-          },
-          {
-            "Name": "UX/UI Design",
-            "Hot": false
+            "Name": "Nginx"
           }
         ]
       },
       {
-        "Area": "Database",
+        "Area": "Other",
         "SkillSet": [
           {
-            "Name": "Microsoft SQL",
-            "Hot": false
+            "Name": "Javascript"
           },
           {
-            "Name": "My SQL",
-            "Hot": false
-          }
-        ]
-      },
-      {
-        "Area": "Platforms",
-        "SkillSet": [
-          {
-            "Name": "Windows",
-            "Hot": false
+            "Name": "AWS (EC2)"
           },
           {
-            "Name": "Unix/Linux",
-            "Hot": false
+            "Name": "Docker"
           },
           {
-            "Name": "Mac OS",
-            "Hot": false
-          }
-        ]
-      },
-      {
-        "Area": "Test Driven Development",
-        "SkillSet": [
-          {
-            "Name": "Junit Test",
-            "Hot": false
+            "Name": "Git"
           },
           {
-            "Name": "Jasmine Test",
-            "Hot": true
+            "Name": "Agile"
           },
           {
-            "Name": "MSTest",
-            "Hot": false
+            "Name": "Mocha/Chai"
           },
           {
-            "Name": "Selenium Functional Test",
-            "Hot": false
-          }
-        ]
-      },
-      {
-        "Area": "Software Development Tools and Concepts",
-        "SkillSet": [
-          {
-            "Name": "Git",
-            "Hot": true
+            "Name": "Loader.io"
           },
           {
-            "Name": "Docker",
-            "Hot": false
+            "Name": "K6"
           },
           {
-            "Name": "Jenkins",
-            "Hot": false
+            "Name": "New Relic"
           },
           {
-            "Name": "Agile",
-            "Hot": true
+            "Name": "Heroku"
+          },
+          {
+            "Name": "Figma"
           }
         ]
       }
     ],
     "Projects": [
       {
-        "Name": "Demo Project 1",
-        "Description": "Demo",
-        "ScreenShotURL": "./demo.svg",
-        "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+        "Name": "MELT",
+        "Description": "MERN app that provides users with a way to report and see other Immigrations and Customs Enforcement (ICE) raids on a map",
+        "TechStack": "Tech Stack: React, Node.js, Express, MongoDB",
+        "ScreenShotURL": "./MELT.png",
+        "ProjectLink":"https://youtu.be/H3215SCizyw"
       },
       {
-        "Name": "Demo Project 2",
-        "Description": "Demo",
-        "ScreenShotURL": "./demo.svg",
-        "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
-      },
-      {
-        "Name": "Demo Project 3",
-        "Description": "Demo",
-        "ScreenShotURL": "./demo.svg",
-        "ProjectLink":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+        "Name": "Real Estate Price Visualizer",
+        "Description": "MERN real estate search app",
+        "TechStack": "Tech Stack: React, CSS Modules, Node.js, Express Webpack, MongoDB, AWS EC2, Docker, Jest/Enzyme",
+        "ScreenShotURL": "./chart.png",
+        "ProjectLink":"https://youtu.be/YwdqgzO-qkE"
       }
     ],
-    "Education": [
+    "Edu": [
       {
-        "SchoolName": "University of Demo",
-        "Date": "2013 - 2017",
-        "Degree": "Bachelor of Science - BS, Computer Science",
-        "Location": "Vancouver BC. Canada",
-        "Description": "Demo",
-        "SchoolImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-        "SchoolLink": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
-        "Awards": [
+        "Education": [
           {
-            "Name": "Award 1",
-            "Date": "Mar 2017",
-            "Region": "Vancouver BC. Canada",
-            "Organization": "Demo",
-            "Description": "Demo award",
-            "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+            "Name": "University of California, Davis",
+            "Date": "Sept 2017 - Dec 2019",
+            "Description": "B.A. Communications and Minor in Computer Science",
+            "Location": "Davis, CA"
           },
           {
-            "Name": "Award 2",
-            "Date": "May 2019",
-            "Region": "Toronto ON. Canada",
-            "Organization": "Demo",
-            "Description": "Demo award",
-            "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+            "Name": "Hack Reactor",
+            "Date": "May 2020 - Aug 2020",
+            "Description": "Advance Software Engineering Immersive",
+            "Location": "San Francisco, CA"
+          }
+        ],
+        "Experience": [
+          {
+            "Name": "Chief of Technology",
+            "Company": "Delta Sigma Pi - Nu Rho",
+            "Date": "Dec 2018 - Dec 2019",
+            "Sentence1": "- Led a team of 3 in designing and launching the organization’s website with CSS and HTML.",
+            "Sentence2": "- Structured and incorporated search engine optimization within the website, increasing site traffic by 300% within 2 weeks and search ranking by 200% during recruitment drive.",
+            "Sentence3": "- Hosted resume building and introductory HTML/CSS workshops for the organization which resulted in 20+ students attendance.",
+            "Location": "Davis, CA"
+          },
+          {
+            "Name": "Communications & Project Management Intern",
+            "Company": "LaunchPAD",
+            "Date": "Mar 2018 - June 2018",
+            "Sentence1": "- Proposed a 6 week strategic plan for real estate portfolio achieving the top presentation for portfolio executives.",
+            "Sentence2":"- Collaborated with upper management to make over 85,000 contact attempts and confirmed over 8,000 votes during the 2018 Primary Election for Yes on J measure, resulting in the measure being passed",
+            "Location": "Davis CA"
+          }
+        ],
+        "Certificates": [
+          {
+            "Name": "Certificate for Complete JavaScript Bootcamp",
+            "Date": "Aug 2020",
+            "Organization": "uDemy",
+            "Link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-e6ba5f5f-fae4-4cc1-94e3-3e86362fb6c3.pdf"
+          },
+          {
+            "Name": "Certificate for Complete React Bootcamp",
+            "Date": "Aug 2020",
+            "Organization": "uDemy",
+            "Link": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9bce0c52-d0c6-415d-a225-3d2b318babb8.pdf"
           }
         ]
       }
