@@ -17,67 +17,123 @@ class EducationPanel extends Component {
         return (
             <div className={styles.educationPanel} >
                 <Grid container justify="center" alignItems="center" spacing={40}>
-                    {profile.Education.map(education => (
+                    {profile.Edu.map(education => (
                         <Grid item xs={9} sm={9} key={education.SchoolName}>
                             <Card className={styles.card}>
                                 <div className={styles.cardDetails}>
-                                    <CardContent>
-                                        <Grid container spacing={40}>
-                                            <Grid item xs={8}>
-                                                <Typography component="h2" variant="h5">
-                                                    {education.SchoolName}
-                                                </Typography>
-                                                <Typography variant="subtitle1" color="textSecondary">
-                                                    {education.Date}
-                                                </Typography>
-                                                <Typography variant="subtitle1" color="textSecondary">
-                                                    {education.Location}
-                                                </Typography>
-                                                <Typography variant="subtitle1" paragraph>
-                                                    {education.Description}
-                                                </Typography>
-                                            </Grid>
-                                            <Grid item xs={4}>
-                                                <ButtonBase onClick={() => window.open(education.SchoolLink)}>
-                                                    <img className={styles.schoolImg} alt={education.SchoolName} src={education.SchoolImage} />
-                                                </ButtonBase>
-                                            </Grid>
-                                        </Grid>
-                                    </CardContent>
                                     {
-                                        education.Awards.length > 0 ? (
+                                        education.Education.length > 0 ? (
                                             <ExpansionPanel defaultExpanded>
                                                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                                                    <Typography variant="h5">{"Awards"}</Typography>
+                                                    <Typography variant="h5">{"Education"}</Typography>
                                                 </ExpansionPanelSummary>
                                                 <Divider variant="middle" />
-                                                {education.Awards.map((award) => (
+                                                {education.Education.map((education) => (
 
-                                                    <ExpansionPanelDetails key={award.Name}>
+                                                    <ExpansionPanelDetails key={education.Name}>
                                                         <Grid container>
                                                             <Grid item xs={12}>
                                                                 <Typography component="h2" variant="h5">
-                                                                    {award.Name}
+                                                                    {education.Name}
                                                                 </Typography>
                                                             </Grid>
                                                             <Grid item xs={12}>
                                                                 <Typography variant="subtitle1" color="textSecondary">
-                                                                    {award.Date + ' - ' + award.Organization}
+                                                                    {education.Date}
+                                                                </Typography>
+                                                            </Grid>
+                                                            <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" paragraph>
+                                                                    {education.Description}
+                                                                </Typography>
+                                                            </Grid>
+                                                        </Grid>
+                                                    </ExpansionPanelDetails>
+
+                                                ))}
+                                            </ExpansionPanel>
+                                        ) : null
+                                    }
+
+                                    {
+                                        education.Experience.length > 0 ? (
+                                            <ExpansionPanel defaultExpanded>
+                                                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                                                    <Typography variant="h5">{"Experience"}</Typography>
+                                                </ExpansionPanelSummary>
+                                                <Divider variant="middle" />
+                                                {education.Experience.map((experience) => (
+
+                                                    <ExpansionPanelDetails key={experience.Name}>
+                                                        <Grid container>
+                                                            <Grid item xs={12}>
+                                                                <Typography component="h2" variant="h5">
+                                                                    {experience.Name}
+                                                                </Typography>
+                                                            </Grid>
+                                                            <Grid item xs={12}>
+                                                                <Typography  variant="subtitle1"
+                                                                color="textSecondary">
+                                                                    {experience.Company}
                                                                 </Typography>
                                                             </Grid>
                                                             <Grid item xs={12}>
                                                                 <Typography variant="subtitle1" color="textSecondary">
-                                                                    {award.Region}
+                                                                    {experience.Date}
                                                                 </Typography>
                                                             </Grid>
                                                             <Grid item xs={12}>
                                                                 <Typography variant="subtitle1" paragraph>
-                                                                    {award.Description}
+                                                                    {experience.Sentence1}
                                                                 </Typography>
                                                             </Grid>
                                                             <Grid item xs={12}>
                                                                 <Typography variant="subtitle1" paragraph>
-                                                                    {'For more infomation - ' + award.Link}
+                                                                    {experience.Sentence2}
+                                                                </Typography>
+                                                            </Grid>
+                                                            <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" paragraph>
+                                                                    {experience.Sentence3}
+                                                                </Typography>
+                                                            </Grid>
+                                                        </Grid>
+                                                    </ExpansionPanelDetails>
+
+                                                ))}
+                                            </ExpansionPanel>
+                                        ) : null
+                                    }
+
+                                    {
+                                        education.Certificates.length > 0 ? (
+                                            <ExpansionPanel defaultExpanded>
+                                                <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+                                                    <Typography variant="h5">{"Certificates"}</Typography>
+                                                </ExpansionPanelSummary>
+                                                <Divider variant="middle" />
+                                                {education.Certificates.map((certificate) => (
+
+                                                    <ExpansionPanelDetails key={certificate.Name}>
+                                                        <Grid container>
+                                                            <Grid item xs={12}>
+                                                                <Typography component="h2" variant="h5">
+                                                                    {certificate.Name}
+                                                                </Typography>
+                                                            </Grid>
+                                                            <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" color="textSecondary">
+                                                                    {certificate.Organization + ' - ' + certificate.Date}
+                                                                </Typography>
+                                                            </Grid>
+                                                            {/* <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" paragraph>
+                                                                    {certificate.Description}
+                                                                </Typography>
+                                                            </Grid> */}
+                                                            <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" paragraph>
+                                                                    {<a href={certificate.Link}>See credential</a>}
                                                                 </Typography>
                                                             </Grid>
                                                         </Grid>

@@ -7,6 +7,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Avatar from '@material-ui/core/Avatar';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import WorkIcon from '@material-ui/icons/Work';
 import { SocialIcon } from 'react-social-icons';
 import SchoolIcon from '@material-ui/icons/School';
@@ -21,7 +22,7 @@ class InfoCard extends Component {
             <div>
                 <Grid container className={styles.infoGrid} justify="center" alignItems="center">
                     <Grid item>
-                        <Avatar alt={profile.Name} className={styles.bigAvatar} src={require("../../img/self.jpeg")} />
+                        <Avatar alt={profile.Name} className={styles.bigAvatar} src={require("../../img/kim.jpeg")} />
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h3" className={styles.name}>
@@ -45,15 +46,15 @@ class InfoCard extends Component {
                             </ListItem>
                             <ListItem>
                                 <Avatar className={styles.infoIcon}>
-                                    <WorkIcon />
-                                </Avatar>
-                                <ListItemText primary={profile.Company}/>
-                            </ListItem>
-                            <ListItem>
-                                <Avatar className={styles.infoIcon}>
                                     <SchoolIcon />
                                 </Avatar>
                                 <ListItemText primary={profile.School}/>
+                            </ListItem>
+                        <ListItem>
+                                <Avatar className={styles.infoIcon}>
+                                    <MailOutlineIcon />
+                                </Avatar>
+                                <ListItemText primary={profile.Email}/>
                             </ListItem>
                         </List>
                     </Grid>
