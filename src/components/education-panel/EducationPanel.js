@@ -97,6 +97,16 @@ class EducationPanel extends Component {
                                                                     {experience.Sentence3}
                                                                 </Typography>
                                                             </Grid>
+                                                            <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" paragraph>
+                                                                    {experience.Sentence4}
+                                                                </Typography>
+                                                            </Grid>
+                                                            <Grid item xs={12}>
+                                                                <Typography variant="subtitle1" paragraph>
+                                                                    {experience.Sentence5}
+                                                                </Typography>
+                                                            </Grid>
                                                         </Grid>
                                                     </ExpansionPanelDetails>
 

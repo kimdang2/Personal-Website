@@ -36,7 +36,7 @@ class DetailTabPanel extends Component {
             <div className={styles.tabPanelRoot}>
                 <AppBar position="static">
                     <Tabs value={value} variant="fullWidth" onChange={this.handleChange}>
-                    <Tab className={styles.tabPanelText} label="Personal Projects" />
+                    <Tab className={styles.tabPanelText} label="Projects" />
                     <Tab className={styles.tabPanelText} label="Education/Experience/Certificates" />
                     <Tab className={styles.tabPanelText} label="Skills" />
                     </Tabs>

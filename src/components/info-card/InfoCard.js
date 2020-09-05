@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from 'react-social-icons';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
@@ -44,12 +44,6 @@ class InfoCard extends Component {
                                 </Avatar>
                                 <ListItemText primary={profile.Address}/>
                             </ListItem>
-                            <ListItem>
-                                <Avatar className={styles.infoIcon}>
-                                    <SchoolIcon />
-                                </Avatar>
-                                <ListItemText primary={profile.School}/>
-                            </ListItem>
                         <ListItem>
                                 <Avatar className={styles.infoIcon}>
                                     <MailOutlineIcon />
@@ -60,7 +54,7 @@ class InfoCard extends Component {
                     </Grid>
                     <Divider className={styles.divider} variant="middle" />
                     <Grid item xs={12} className={styles.socialMedias}>
-                    {/* {socialMediaList.map(s => (<SocialIcon className={styles.socialMediasIcon} key={s} url={s} bgColor="#fff"/>))} */}
+                    {socialMediaList.map(s => (<SocialIcon className={styles.socialMediasIcon} key={s} url={s} bgColor="#fff"/>))}
                     </Grid>
                 </Grid>
             </div>

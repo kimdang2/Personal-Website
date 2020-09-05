@@ -49,10 +49,16 @@ class ProjectTabPanel extends Component {
                                             <Typography className={styles.projectDescription}>
                                                 {project.Description}
                                             </Typography>
+                                            <Typography className={styles.projectDescription}>
+                                                {project.TechStack}
+                                            </Typography>
                                         </CardContent>
                                         <CardActions className={styles.openDetailActionPanel} title={project.Name}>
                                             <Button className={styles.openDetail} variant="contained" size="large" color="primary" onClick={() => window.open(project.ProjectLink)}>
-                                                View Detail
+                                                View Demo
+                                            </Button>
+                                            <Button className={styles.openDetail} variant="contained" size="large" color="primary" onClick={() => window.open(project.CodeLink)}>
+                                                View Code
                                             </Button>
                                         </CardActions>
                                     </Card>

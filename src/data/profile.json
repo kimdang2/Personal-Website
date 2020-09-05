@@ -3,7 +3,6 @@
     "Position": "Software Engineer",
     "Description": "I'm passionate about building programs around human-centered design. I am an aspiring weightlifting competitor and Yelp Eliter",
     "Address": "San Francisco, CA",
-    "School": "University of California, Davis",
     "Email": "kimdang229@gmail.com",
     "SocialMedias": [
       "https://github.com/kimdang2",
@@ -11,27 +10,14 @@
     ],
     "experiences": [
       {
-        "companyName": "Delta Sigma Pi - Nu Rho",
-
+        "companyName": "Personal Project",
         "roles": [
           {
-            "title": "Chief of Technology",
-            "description": "Led a team of 3 in designing and launching the organization’s website with CSS and HTML. Structured and incorporated search engine optimization within the website, increasing site traffic by 300% within 2 weeks and search ranking by 200% during recruitment drive. Hosted resume building and introductory HTML/CSS workshops for the organization which resulted in 20+ students attendance.",
-            "startDate": "2018-12-01",
-            "endDate": "2019-12-01",
-            "location": "Davis, CA"
-          }
-        ]
-      },
-      {
-        "companyName": "LaunchPAD",
-        "roles": [
-          {
-            "title": "Communications & Project Management Intern",
-            "description": "Proposed a 6 week strategic plan for real estate portfolio achieving the top presentation for portfolio executives. Collaborated with upper management to make over 85,000 contact attempts and confirmed over 8,000 votes during the 2018 Primary Election for Yes on J measure, resulting in the measure being passed",
-            "startDate": "2018-03-01",
-            "endDate": "2018-06-01",
-            "location": "Davis, CA"
+            "title": "Fullstack Software Engineer",
+            "description": "Allow users to report and see other reports of raids utilizing Google Places API. Enable notifications to be sent to users via SMS message when a raid is within a 10 mile radius utilizing Twilio API. Render a ranked list of immigration lawyers by user’s zip code utilizing Yelp Fusion's API. Translate data scraped from Immigration Defense Project’s NY Trend ICE Report onto a map to display each raid location and summary of each report. Manage user data and sessions securely using Firebase Authentication with Email and Google.",
+            "startDate": "2020-08-01",
+            "endDate": "2020-09-01",
+            "location": "San Francisco, CA"
           }
         ]
       }
@@ -60,9 +46,6 @@
           },
           {
             "Name": "CSS"
-          },
-          {
-            "Name": "Redux"
           },
           {
             "Name": "jQuery"
@@ -127,6 +110,9 @@
           },
           {
             "Name": "Figma"
+          },
+          {
+            "Name": "Firebase"
           }
         ]
       }
@@ -134,17 +120,27 @@
     "Projects": [
       {
         "Name": "MELT",
-        "Description": "MERN app that provides users with a way to report and see other Immigrations and Customs Enforcement (ICE) raids on a map",
-        "TechStack": "Tech Stack: React, Node.js, Express, MongoDB",
-        "ScreenShotURL": "./MELT.png",
-        "ProjectLink":"https://youtu.be/9Qo_U7usaAA"
+        "Description": "Provides users with a way to report and see other Immigrations and Customs Enforcement (ICE) raids on a map.",
+        "TechStack": "Tech Stack: React, Node.js, Express.js, MongoDB",
+        "ScreenShotURL": "./melt-demo2.png",
+        "ProjectLink":"https://youtu.be/9Qo_U7usaAA",
+        "CodeLink":"https://github.com/kimdang2/melt"
       },
       {
         "Name": "Real Estate Price Visualizer",
-        "Description": "MERN real estate search app",
-        "TechStack": "Tech Stack: React, CSS Modules, Node.js, Express Webpack, MongoDB, AWS EC2, Docker, Jest/Enzyme",
+        "Description": "Affordability calculator that allows buyers to estimate their monthly mortgage payments for a given home.",
+        "TechStack": "Tech Stack: React, CSS Modules, Node.js, Express.js, Webpack, MongoDB, AWS EC2, Docker, Jest/Enzyme",
         "ScreenShotURL": "./chart.png",
-        "ProjectLink":"https://youtu.be/YwdqgzO-qkE"
+        "ProjectLink":"https://youtu.be/YwdqgzO-qkE",
+        "CodeLink":"https://github.com/kimdang2/Mortgage-Calculator-Kim"
+      },
+      {
+        "Name": "Realtime Chat App",
+        "Description": "Simple real-time chat application that will support custom usernames, sending messages, and join and leave rooms.",
+        "TechStack": "Tech Stack: Socket.io, React, Node.js, Express.js",
+        "ScreenShotURL": "./chat-discord.png",
+        "ProjectLink":"https://youtu.be/YwdqgzO-qkE",
+        "CodeLink":"https://github.com/kimdang2/chat-discord"
       }
     ],
     "Edu": [
@@ -164,6 +160,37 @@
           }
         ],
         "Experience": [
+          {
+            "Name": "Fullstack Software Engineer",
+            "Company": "Personal Project",
+            "Date": "Aug 2020 - Present",
+            "Sentence1": "- Allow users to report and see other reports of raids utilizing Google Places API. ",
+            "Sentence2": "- Enable notifications to be sent to users via SMS message when a raid is within a 10 mile radius utilizing Twilio API.",
+            "Sentence3": "- Render a ranked list of immigration lawyers by user’s zip code utilizing Yelp Fusion's API.",
+            "Sentence4": "- Translate data scraped from Immigration Defense Project’s NY Trend ICE Report onto a map to display each raid location and summary of each report.",
+            "Sentence5": "- Manage user data and sessions securely using Firebase Authentication with Email and Google.",
+            "Location": "Davis, CA"
+          },
+          {
+            "Name": "Backend Engineer",
+            "Company": "Personal Project",
+            "Date": "Jun 2020 - July 2020",
+            "Sentence1": "- Horizontally web scaled a legacy code base using Nginx load-balancer across 4 AWS EC2 instances, achieving a latency of 16ms with a throughput of 2000 rps and 0% error rate.",
+            "Sentence2": "- Reduced query times (< 10ms) via PostgreSQL optimization (indexing, query restructuring and config tuning).",
+            "Sentence3": "- Performed load testings with Loader.io and New Relic to maintain quality microservice performance and mitigate system bottlenecks.",
+            "Location": "Davis, CA"
+          },
+          {
+            "Name": "Frontend Engineer",
+            "Company": "Personal Project",
+            "Date": "May 2020 - Jun 2020",
+            "Sentence1": "- Implemented a real estate pricing microservice using React.",
+            "Sentence2": "- Architected an Express proxy server to handle routing for RESTful APIs.",
+            "Sentence3": "- Utilized MongoDB to persist user data.",
+            "Sentence4": "- Containerized microservice via Docker and deployed on AWS EC2 for easy reproducibility and share-ability.",
+            "Sentence5": "- Improved page loading speed by 200% via compressing the bundle.js file from 2.2 MB to 177kb (92% compression).",
+            "Location": "Davis, CA"
+          },
           {
             "Name": "Chief of Technology",
             "Company": "Delta Sigma Pi - Nu Rho",
