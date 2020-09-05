@@ -139,7 +139,7 @@
         "Description": "Simple real-time chat application that will support custom usernames, sending messages, and join and leave rooms.",
         "TechStack": "Tech Stack: Socket.io, React, Node.js, Express.js",
         "ScreenShotURL": "./chat-discord.png",
-        "ProjectLink":"https://youtu.be/YwdqgzO-qkE",
+        "ProjectLink":"",
         "CodeLink":"https://github.com/kimdang2/chat-discord"
       }
     ],
