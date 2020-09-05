@@ -44,7 +44,7 @@ class InfoCard extends Component {
                                 </Avatar>
                                 <ListItemText primary={profile.Address}/>
                             </ListItem>
-                        <ListItem>
+                            <ListItem>
                                 <Avatar className={styles.infoIcon}>
                                     <MailOutlineIcon />
                                 </Avatar>
