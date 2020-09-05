@@ -8,12 +8,9 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Avatar from '@material-ui/core/Avatar';
 import LocationCityIcon from '@material-ui/icons/LocationCity';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import { SocialIcon } from 'react-social-icons';
 
 import profile from '../../data/profile';
 import styles from './InfoCard.module.css';
-
-const socialMediaList = profile.SocialMedias;
 
 class InfoCard extends Component {
     render() {
@@ -43,6 +40,7 @@ class InfoCard extends Component {
                                 </Avatar>
                                 <ListItemText primary={profile.Address}/>
                             </ListItem>
+
                             <ListItem>
                                 <Avatar className={styles.infoIcon}>
                                     <MailOutlineIcon />
@@ -50,12 +48,15 @@ class InfoCard extends Component {
                                 <ListItemText primary={profile.Email}/>
                             </ListItem>
 
+                            <ListItem>
+                                <ListItemText><a href="https://github.com/kimdang2">GitHub</a></ListItemText>
+                                <ListItemText><a href="https://www.linkedin.com/in/kimdang229/">LinkedIn</a></ListItemText>
+
+                            </ListItem>
+
                         </List>
                     </Grid>
                     <Divider className={styles.divider} variant="middle" />
-                    <Grid item xs={12} className={styles.socialMedias}>
-                    {socialMediaList.map(s => (<SocialIcon className={styles.socialMediasIcon} key={s} url={s} bgColor="#fff"/>))}
-                    </Grid>
                 </Grid>
             </div>
         );
